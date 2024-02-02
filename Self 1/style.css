@@ -1,0 +1,383 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* overflow-x: hidden; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo img {
+    height: 29px;
+    width: 137px;
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+
+.header {
+    height: 5rem;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    margin: 0rem 0rem;
+    width: 97rem;
+    padding: 0rem 4.3rem;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+
+
+.header-text {
+    font-family: CareemSans, Sans, sans-serif;
+    font-weight: light;
+    display: flex;
+    gap: 2rem;
+    margin-left: -17%;
+    cursor: pointer;
+}
+
+.download-app-btn {
+    margin-right: 2.8rem;
+    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 166px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #00eb79;
+}
+
+.header-btn {
+    display: flex;
+    align-self: flex-end;
+    gap: 1rem;
+}
+
+.heading-text2 {
+    display: flex;
+    padding-right: 2rem;
+    align-self: center;
+}
+
+
+.vedio {
+    pointer-events: none;
+    object-fit: cover;
+    display: flex;
+    /* background-color: #00eb79; */
+    /* justify-content: center; */
+    /* margin-right: 0.4rem; */
+    margin-top: 1rem;
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2.4rem;
+}
+
+
+button {
+    display: flex;
+    flex-direction: column;
+    width: 21.85rem;
+    height: 33rem;
+    text-align: start;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: CareemSans, Sans, sans-serif;
+    font-size: 3.7rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-top: -0.9rem;
+    margin-left: 1.5rem;
+}
+
+
+.img-1 {
+    height: 26.6px;
+    margin-left: 1.5rem;
+    margin-top: 1.4rem;
+}
+
+.img {
+    height: 26.6px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+span {
+    font-size: 1.27rem;
+    font-weight: bold;
+}
+
+.arrow {
+    display: flex;
+    /* place-self: end; */
+    align-self: end;
+}
+
+
+.btn-1 {
+    background-color: #3837e4;
+    color: #fff;
+}
+
+.btn-2 {
+    background-color: #d2ffd5;
+    color: #00493e;
+}
+
+.btn-3 {
+    background-color: #7f5ffa;
+    color: #d6ffea;
+}
+
+.btn-4 {
+    background-color: #001942;
+    color: #fff;
+}
+
+
+.items {
+    display: flex;
+    padding: 0rem 3%;
+    justify-content: center;
+    margin: 6rem 0rem;
+    display: none;
+    /* opacity: 0; */
+    /* transform: translateX(-119%);
+    transition: opacity 1s ease-in, transform 1s ease-out;
+    transition-duration: 1s; */
+    /* animation: itemAnimation; */
+}
+
+.items[data-active] {
+    display: flex;
+
+}
+
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-top: 4rem;
+}
+
+.slider {
+    display: flex;
+    gap: 17rem;
+}
+
+
+.cplus-logo {
+    text-align: start;
+    align-self: start;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.cplus {
+    margin-top: -9rem;
+    margin-right: 1rem;
+    align-self: end;
+}
+
+
+.catagaries {
+    background: linear-gradient(100.88deg, #00493e 29.03%, #00e784 154.38%);
+    width: 90rem;
+    height: 18.3rem;
+    color: #fff;
+}
+
+.about {
+    margin: 7.5rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-btn {
+    background-color: #00eb79;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 10px;
+    height: 2.22rem;
+    margin-top: 1.5rem;
+    width: 6.5rem;
+}
+
+.about-us {
+    font-family: CareemSans, Sans, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    justify-items: center;
+    width: 90rem;
+}
+
+
+p {
+    margin: -3px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    word-break: break-word;
+    size: 80px;
+}
+
+.h2 {
+    margin-top: -4rem;
+    line-height: 4rem;
+    font-size: 2.35rem;
+    font-weight: 900;
+    margin-left: 0rem;
+}
+
+
+
+.about-text {
+    margin-left: 4rem;
+    gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-self: center;
+    width: 30rem;
+}
+
+.about-img {
+    width: 32rem;
+}
+
+#captains {
+    background: url(background-with-sides-clipped.png);
+    height: 42rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 8rem 0rem;
+
+}
+
+#captains-btn {
+    background-color: #fff;
+}
+
+#captains-text {
+    margin-left: -4rem;
+}
+
+.Our-blog {
+    display: flex;
+    flex-direction: column;
+    background: url(bg-cliped-our-blog.png);
+    height: 64rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.blogs {
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.blog-1 {
+    cursor: pointer;
+    width: 23.5rem;
+}
+
+.blog-img {
+    height: 20.5rem;
+}
+
+.blog-h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.h1 {
+
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.blog-title {
+    /* background-color: #3837e4; */
+    display: flex;
+    place-content: center;
+    padding: 0rem 9%;
+    justify-content: space-between;
+    margin-top: 6.5rem;
+    /* margin-left: 10rem; */
+}
+
+.p {
+    line-height: 5rem;
+    font-size: 1.3rem;
+    margin-right: 3.5rem;
+    margin-top: 2.5rem;
+}
+
+.blog-p {
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    width: 22rem;
+    font-weight: normal;
+    word-break: break-word;
+
+}
+
+/* footer */
+
+.whole-footer {
+    display: flex;
+    color: #00493e;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    gap: 12%;
+    margin: 11rem 4.5%;
+    margin-bottom: 0rem;
+}
+
+.text-2 {
+    display: flex;
+    gap: 9rem;
+}
+
+.footer-logo img {
+    height: 29px;
+    width: 137px;
+    cursor: pointer;
+}
